@@ -1,6 +1,7 @@
 import nxbt
 
-macro = """
+
+macro_getOutOfMenu = """
 A 0.1s
 2s
 B 0.1s
@@ -13,6 +14,10 @@ DPAD_LEFT 0.1s
 2s
 A 0.1s
 2s
+"""
+
+
+macro_LoopA = """
 LOOP 100000
     A 0.1s
     0.5s
@@ -27,4 +32,9 @@ nx.wait_for_connection(controller_index)
 
 print("connected");
 # Run a macro on the Pro Controller
-nx.macro(controller_index, macro)
+nx.macro(controller_index, macro_getOutOfMenu)
+
+# Loop A
+nx.macro(controller_index, macro_LoopA)
+
+# Make a python loop where if you press enter it stops looping?
