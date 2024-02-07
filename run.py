@@ -26,9 +26,9 @@ LOOP 100000
 
 macro = """
 A 0.1s
-2s
+5s
 B 0.1s
-2s
+5s
 DPAD_UP 0.1s
 2s
 DPAD_LEFT 0.1s
