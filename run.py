@@ -2,8 +2,11 @@ import nxbt
 
 macro = """
 A 0.1s
+2s
 B 0.1s
-0.1s
+2s
+A 0.1s
+2s
 """
 
 # Start the NXBT service
