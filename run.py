@@ -13,6 +13,9 @@ DPAD_LEFT 0.1s
 2s
 A 0.1s
 2s
+LOOP 100000
+    A 0.1s
+    0.5s
 """
 
 # Start the NXBT service
