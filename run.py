@@ -1,7 +1,7 @@
 import nxbt
 
 macro = """
-B 0.1s
+A 0.1s
 0.1s
 """
 
@@ -12,5 +12,6 @@ nx = nxbt.Nxbt()
 controller_index = nx.create_controller(nxbt.PRO_CONTROLLER)
 nx.wait_for_connection(controller_index)
 
+print("connected");
 # Run a macro on the Pro Controller
 nx.macro(controller_index, macro)
