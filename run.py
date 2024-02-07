@@ -38,6 +38,7 @@ DPAD_LEFT 0.1s
 A 0.1s
 2s
 LOOP 100000
+    R 0.1s
     A 0.1s
     0.5s
 """
