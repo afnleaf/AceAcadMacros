@@ -2,6 +2,7 @@ import nxbt
 
 macro = """
 A 0.1s
+B 0.1s
 0.1s
 """
 
